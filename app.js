@@ -14,6 +14,10 @@ app.get('/new-feature', (req, res) => {
   res.send('this is a new updated feature')
 })
 
+app.get('/more-feature', (req, res) => {
+  res.send('more feature')
+})
+
 app.listen(PORT, () => {
   // eslint-disable-next-line no-console
   console.log(`server started on port ${PORT}`)
