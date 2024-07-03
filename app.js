@@ -15,7 +15,7 @@ app.get('/new-feature', (req, res) => {
 })
 
 app.get('/more-feature', (req, res) => {
-  res.send('more feature')
+  res.send('more feature: patch 1')
 })
 
 app.listen(PORT, () => {
