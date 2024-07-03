@@ -11,7 +11,7 @@ app.get('/health', (req, res) => {
 })
 
 app.get('/new-feature', (req, res) => {
-  res.send('this is a new feature')
+  res.send('this is a new updated feature')
 })
 
 app.listen(PORT, () => {
